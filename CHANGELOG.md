@@ -1,5 +1,5 @@
 
-# v0.2.0 (unreleased)
+# v0.2.0 (2019-03-01)
 
  * fixed version increment for feature / bugfix branches
  * document flaw with sprint versioning
