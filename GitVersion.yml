@@ -4,15 +4,19 @@ branches:
   master:
     regex: master
     tag: sprint
+    increment: Minor
   support:
     regex: release/
     tag: rc
     source-branches: ['master']
+    increment: Patch
   feature:
     regex: feature/
     tag: feature.{BranchName}
+    increment: None
     source-branches: ['master', 'release']
   bugfix:
     regex: bugfix/
     tag: bugfix.{BranchName}
+    increment: None
     source-branches: ['master', 'release']
