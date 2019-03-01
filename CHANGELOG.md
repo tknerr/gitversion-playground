@@ -1,5 +1,5 @@
 
-# v0.3.0 (unreleased)
+# v1.0.0 (2019-03-01)
 
  * switch to alpha pre-release versions
 
