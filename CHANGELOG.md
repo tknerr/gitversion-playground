@@ -1,6 +1,7 @@
 
 # v0.1.0 (unreleased)
 
+ * added .gitignore file
  * added this CHANGELOG
  * added GitVersion Config
  * initial version with README
