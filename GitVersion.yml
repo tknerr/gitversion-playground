@@ -1,0 +1,18 @@
+mode: ContinuousDelivery
+commit-message-incrementing: Disabled
+branches:
+  master:
+    regex: master
+    tag: sprint
+  support:
+    regex: release/
+    tag: rc
+    source-branches: ['master']
+  feature:
+    regex: feature/
+    tag: feature.{BranchName}
+    source-branches: ['master', 'release']
+  bugfix:
+    regex: bugfix/
+    tag: bugfix.{BranchName}
+    source-branches: ['master', 'release']
