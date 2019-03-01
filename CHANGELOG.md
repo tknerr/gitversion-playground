@@ -1,6 +1,7 @@
 
 # v0.2.0 (unreleased)
 
+ * rename support to release branch
  * added rule for version increments
 
 # v0.1.0 (2019-03-01)

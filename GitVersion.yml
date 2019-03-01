@@ -5,7 +5,7 @@ branches:
     regex: master
     tag: sprint
     increment: Minor
-  support:
+  release:
     regex: release/
     tag: rc
     source-branches: ['master']
