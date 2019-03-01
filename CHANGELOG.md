@@ -1,6 +1,7 @@
 
 # v0.1.0 (unreleased)
 
+ * added GitVersion usage
  * added branching model
  * added .gitignore file
  * added this CHANGELOG
