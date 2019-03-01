@@ -1,3 +1,7 @@
+# v0.2.2 (unreleased)
+
+ * ...
+
 # v0.2.1 (2019-03-01)
 
  * no changes here
