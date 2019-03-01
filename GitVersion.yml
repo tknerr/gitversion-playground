@@ -13,10 +13,10 @@ branches:
   feature:
     regex: feature/
     tag: feature.{BranchName}
-    increment: None
+    increment: Inherit
     source-branches: ['master', 'release']
   bugfix:
     regex: bugfix/
     tag: bugfix.{BranchName}
-    increment: None
+    increment: Inherit
     source-branches: ['master', 'release']

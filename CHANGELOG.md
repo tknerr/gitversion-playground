@@ -1,6 +1,7 @@
 
 # v0.2.0 (unreleased)
 
+ * fixed version increment for feature / bugfix branches
  * document flaw with sprint versioning
  * rename support to release branch
  * added rule for version increments
