@@ -23,3 +23,4 @@ Examples:
  * "v0.1.0" is the (tagged) *release* version v0.1.0
  * "v0.2.0-alpha5" is a (tagged) v0.2.0-alpha5 *pre-release* as we are working towards v0.2.0
  * "v0.2.0-alpha6+19" is an ordinary (untagged) CI build, working towards the v0.2.0-alpha6 pre-release and 19 commits ahead of the previous v0.1.0 release
+  
