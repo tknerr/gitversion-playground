@@ -1,22 +1,24 @@
 mode: ContinuousDelivery
 commit-message-incrementing: Disabled
+assembly-informational-format: '{FullSemver}.Sha.{Sha}'
+assembly-versioning-format: '{MajorMinorPatch}.{CommitsSinceVersionSource}'
 branches:
   master:
     regex: master
-    tag: alpha
+    tag: ci.master
     increment: Minor
   release:
     regex: release/
-    tag: rc
+    tag: ci.release.{BranchName}
     source-branches: ['master']
     increment: Patch
   feature:
     regex: feature/
-    tag: feature.{BranchName}
+    tag: ci.feature.{BranchName}
     increment: Inherit
     source-branches: ['master', 'release']
   bugfix:
     regex: bugfix/
-    tag: bugfix.{BranchName}
+    tag: ci.bugfix.{BranchName}
     increment: Inherit
     source-branches: ['master', 'release']
