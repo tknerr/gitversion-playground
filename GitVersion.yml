@@ -6,20 +6,16 @@ assembly-informational-format: '{FullSemVer}.Branch.{BranchName}.Build.{env:BUIL
 branches:
   master:
     regex: master
-    tag: ci.master
     increment: Minor
   release:
     regex: release/
-    tag: ci.release.{BranchName}
     source-branches: ['master']
     increment: Patch
   feature:
     regex: feature/
-    tag: ci.feature.{BranchName}
     increment: Inherit
     source-branches: ['master', 'release']
   bugfix:
     regex: bugfix/
-    tag: ci.bugfix.{BranchName}
     increment: Inherit
     source-branches: ['master', 'release']
