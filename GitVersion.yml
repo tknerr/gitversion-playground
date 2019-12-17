@@ -1,8 +1,8 @@
 mode: ContinuousDelivery
 commit-message-incrementing: Disabled
-assembly-informational-format: '{FullSemver}.Sha.{Sha}'
 assembly-versioning-format: '{MajorMinorPatch}.{CommitsSinceVersionSource}'
 assembly-file-versioning-format: '{MajorMinorPatch}.{CommitsSinceVersionSource}'
+assembly-informational-format: '{FullSemVer}.Branch.{BranchName}.Build.{env:BUILD_NUMBER ?? local}.Sha.{Sha}'
 branches:
   master:
     regex: master
